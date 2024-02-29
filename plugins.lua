@@ -1,5 +1,9 @@
 local plugins = {
   {
+    "christoomey/vim-tmux-navigator",
+    lazy = false,
+  },
+  {
     "nvimtools/none-ls.nvim",
     event = "VeryLazy",
     opts = function()
@@ -21,6 +25,7 @@ local plugins = {
         "prettierd",
         "tailwindcss-language-server",
         "typescript-language-server",
+        "svelte-language-server",
       }
     }
   },
@@ -32,6 +37,7 @@ local plugins = {
       "typescript",
       "typescriptreact",
       "html",
+      "svelte",
     },
     config = function()
       require("nvim-ts-autotag").setup()
@@ -46,6 +52,7 @@ local plugins = {
         "javascript",
         "typescript",
         "tsx",
+        "svelte",
       }
       return opts
     end
