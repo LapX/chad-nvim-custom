@@ -32,6 +32,7 @@ local plugins = {
         "prettierd",
         "tailwindcss-language-server",
         "typescript-language-server",
+        "haskell-language-server",
       }
     }
   },
@@ -57,6 +58,7 @@ local plugins = {
         "javascript",
         "typescript",
         "tsx",
+        "haskell"
       }
       return opts
     end
