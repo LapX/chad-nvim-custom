@@ -33,7 +33,6 @@ local plugins = {
         "tailwindcss-language-server",
         "typescript-language-server",
         "haskell-language-server",
-        "ruby_lsp"
       }
     }
   },
